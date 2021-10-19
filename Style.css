@@ -1,12 +1,129 @@
-/*Обнуление*/
-*,*:before,*:after{
+
+/*Обнулення*/
+*{
 	padding: 0;
 	margin: 0;
-	border: 0;
+    border: 0;
+	box-sizing: border-box;
+}
+*,*:before,*:after{
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
 }
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
 html,body{
 	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	font-family: 'Open Sans';
 }
+/*input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}*/
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul, li{list-style: none; text-decoration: none; }
+img{vertical-align: top;}
+
+.wrapper { 
+min-height: 100%;
+overflow: hidden;
+
+}/*
+._container {
+	max-width: 1020px;
+	margin: 0px auto;
+}*/
+/*
+.content { 
+	position: absolute;
+	left: 70.31%;
+	right: 25.34%;
+	top: 47.37%;
+	bottom: 10.53%;
+	background: #5C6372;
+	transform: rotate(-45deg);
+}*/
+.link_color{
+	color: #13AA57;}
+
+/*--------------------------Header------------------------------------------*/
+
+.header{ 
+	position: absolute;
+	width: 100%;
+	left:0;
+	top:0;
+	z-index: 50;
+	font-weight: 600;
+}
+/*
+.header_container{
+	display: flex;
+	flex-direction: column;
+    
+}*/
+
+.header_top{
+	font-size: 14px;
+    text-indent: 30px;
+	min-height:  40px; 
+	display: flex;
+	margin-left: 591px;
+	align-items: center;
+	
+}
+.header_line{
+	width: 100%;
+    height: auto;
+	border-bottom: 1px solid rgba(131, 156, 148, 0.2);
+}
+
+.header_top_lang::after{
+	content: "";
+	display: inline-block;
+    background: url('images/header/Arrow.png');
+    width: 16px;
+    height: 16px;
+	
+}
+
+.nav{
+	font-size: 16px;
+	min-height: 82px ;
+}
+.nav_container {
+	max-width: 1020px;
+	margin: 0px auto;
+	
+}
+.nav_menu{ 
+	display: flex;
+	
+}
+.nav_logo{
+	margin-right: 97px;
+
+}
+
+.menu_list{ 
+	display:flex;
+	align-items: center;
+}
+.menu_item:not(:first-child){
+	margin-left: 93px;
+}
+
+
