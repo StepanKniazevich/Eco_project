@@ -38,8 +38,13 @@ ul, li{list-style: none; text-decoration: none; }
 img{vertical-align: top;}
 
 .wrapper { 
-min-height: 100%;
-overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	min-height: 100%;
+	overflow: hidden;
+	justify-items: center;
+	/*max-width: 1440px;*/
+	margin: 0px auto;
 
 }/*
 ._container {
@@ -56,18 +61,20 @@ overflow: hidden;
 	background: #5C6372;
 	transform: rotate(-45deg);
 }*/
-.link_color{
+._link_color{
 	color: #13AA57;}
+
 
 /*--------------------------Header------------------------------------------*/
 
 .header{ 
-	position: absolute;
 	width: 100%;
 	left:0;
 	top:0;
 	z-index: 50;
 	font-weight: 600;
+	background-color: #fff;
+    box-shadow: 0px -18px 52px rgba(46, 91, 255, 0.2);
 }
 /*
 .header_container{
@@ -126,4 +133,181 @@ overflow: hidden;
 	margin-left: 93px;
 }
 
+/*--------------------------Main-------------------------*/
+.main_page { 
+	
+	position: relative;
+	max-width: 100%;
+	font-family: Open Sans;
+	
+}
+.useful_habits{
+	margin-bottom: 123px;
 
+}
+.useful_hab_content{
+	max-height: 650px; 
+
+}
+
+.useful_hab_container {
+	font-size: 18px;
+	line-height: 32px;
+	margin-left: 209px;
+	display: flex;
+	justify-content:space-between;
+	
+	/*margin-top: 98px;*/
+	/*max-height: 577px;*/
+	
+	
+
+	
+	
+}
+.useful_hab_header{
+	max-width: 604px ;
+	max-height: 108px;
+	font-weight: bold;
+	font-size: 46px;
+	line-height: 54px;
+	margin-top: 98px;
+
+}
+.useful_hab_content{
+	max-width: 501px ;
+	max-height: 192px;
+	color: #263238;
+	margin: 30px 0px 38px 0px;
+}
+.useful_hab_btn {
+	max-width: 292px ;
+	max-height: 48px;
+
+	
+}
+.button_start{
+	background-color: #13AA57;
+    border-radius: 5px;
+    color: #fff;
+    width: 292px;
+    height: 48px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+	margin-top: 42px;
+	margin-bottom: 31px;
+    
+}
+
+.intro__link:hover{
+    background-color: #127b42;
+}
+/*.eco_images{
+	max-width: 768px;
+	max-height:644px;
+}*/
+/*.img_bgIntro{
+	position: absolute;
+	z-index: -1;
+}*/
+.img_circle{
+	position: absolute;
+    top: 100px;
+    left: 880px;
+	z-index: -1;
+}
+.img_boy{
+	position: absolute;
+	top: 160px;
+    right: 135px;
+    z-index: -1;
+}
+.img_leaf{
+	position: absolute;
+	top: 181px;
+    right: 0;
+    z-index: -1;
+
+}
+.img_bgIntro{
+	position: absolute;
+    top: 0px;
+    right: 0px;
+    z-index: -2;
+}
+
+.eco_bag{
+
+}
+.eco_bag_container{
+	max-width: 922px;
+    width: 100%;
+	margin: auto;
+   
+}
+.eco_bag_content,.eco_cup_content{
+	display: flex;
+	justify-content: space-between;
+}
+.eco_bag_content{
+	margin-top: 69px;
+}
+.eco_cup_content{
+	margin-top: 129px;	
+}
+
+
+.img_eco_bag{
+	width: 300px;
+	height: 315px;
+	
+	
+}
+.eco_bag_text {
+	font-weight: 600;
+	
+
+}
+.upper_num{
+	font-family: PT Sans;
+	font-weight: bold;
+	font-size: 60px;
+	line-height: 78px;
+	margin: 0 21px;
+	text-align: center;
+}
+
+
+
+
+.eco_text_tittle{
+	font-weight: 600;
+	font-size: 21px;
+	line-height: 29px;
+	color: #000;
+    display: flex;
+    -ms-align-items: center;
+    align-items: center;
+	margin-bottom: 15px;
+}
+.eco_bag_title{
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 54px;
+	margin-top: 98px;
+	text-align: center;
+	margin-top: 20px;
+
+}
+.link_buy{
+	width:277px;
+}
+
+.footer{ 
+	
+	
+
+}
