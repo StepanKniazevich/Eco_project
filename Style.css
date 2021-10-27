@@ -239,7 +239,7 @@ img{vertical-align: top;}
     z-index: -2;
 }
 
-.eco_bag{
+.eco_bag{ margin-bottom: 120px;
 
 }
 .eco_bag_container{
@@ -294,18 +294,40 @@ img{vertical-align: top;}
 	margin-bottom: 15px;
 }
 .eco_bag_title{
+	font-style: normal;
 	font-weight: bold;
-	font-size: 36px;
-	line-height: 54px;
-	margin-top: 98px;
-	text-align: center;
-	margin-top: 20px;
+	font-size: 46px;
+	line-height: 64px;
 
+
+text-align: center;
 }
 .link_buy{
 	width:277px;
 }
 
+
+.eco_events_container{
+	max-width:1040px;
+    width: 100%;
+	margin: auto;
+   
+
+
+}
+.eco_events_tittle{
+	font-style: normal;
+	font-weight: bold;
+	font-size: 46px;
+	line-height: 64px;
+	text-align: center;
+}
+
+
+.eco_events_container{
+
+	display: flex;
+}
 .footer{ 
 	
 	
