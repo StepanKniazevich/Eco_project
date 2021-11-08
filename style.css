@@ -439,12 +439,8 @@ text-align: center;
 .slider__items{
 	display: flex;
 	justify-content:space-between;
-	
-	/*top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);*/
-
 }
+
 .slider__item{
 	width: 408px;
 	height: 296px;
@@ -462,11 +458,6 @@ text-align: center;
 .slider__item__text{
 
 	
-	/*margin: auto;
-	width: 328px;
-	height: 135px;
-	font-weight: normal;*/
-
 }
 .slider__img{
 	display: block;
